@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_features",
+  "info": {
+    "name": "Features",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-children.feature-item"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

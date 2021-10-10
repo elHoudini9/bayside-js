@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_children_carousel_items",
+  "info": {
+    "name": "Carousel Item",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

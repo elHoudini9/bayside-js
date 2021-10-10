@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_secondary_nav_items",
+  "info": {
+    "name": "Secondary Nav Item",
+    "icon": "external-link-square-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "post": {
+      "model": "article"
+    }
+  }
+}

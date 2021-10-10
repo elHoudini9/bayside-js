@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_nav_items",
+  "info": {
+    "name": "Nav Item",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "secondaryNavItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.secondary-nav-item"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

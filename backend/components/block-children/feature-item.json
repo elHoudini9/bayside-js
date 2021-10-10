@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_children_feature_items",
+  "info": {
+    "name": "Feature Item",
+    "icon": "genderless"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

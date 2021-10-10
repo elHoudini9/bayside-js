@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_banners",
+  "info": {
+    "name": "Banner",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "btnLabel": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_carousels",
+  "info": {
+    "name": "Carousel",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-children.carousel-item"
+    }
+  }
+}

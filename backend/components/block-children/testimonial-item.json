@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_children_testimonial_items",
+  "info": {
+    "name": "Testimonial Item",
+    "icon": "star-half-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "quote": {
+      "type": "text"
+    }
+  }
+}
